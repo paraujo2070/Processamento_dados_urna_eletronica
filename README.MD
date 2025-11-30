@@ -64,19 +64,21 @@ Pontos Azuis (Base): Candidatos com votos distribuídos pela cidade ("Voto de Op
 3. Detecção de Anomalias (Isolation Forest)
 O gráfico cruza a dominância do vencedor da urna (Eixo X) com a entropia/diversidade da urna (Eixo Y).
 
-![alt text](<imagens/newplot (1).png>)
+![alt text](<imagens/newplot (3).png>)
 
 Pontos Vermelhos (Losangos): Seções marcadas pelo algoritmo como anomalias estatísticas. Elas fogem do padrão da cidade, apresentando alta concentração em um candidato e baixíssima diversidade geral.
 
 4. Canibalização Intra-Partidária
 Análise da força de um candidato dentro do próprio partido.
 
+![alt text](<imagens/newplot (5).png>)
+
 Bolinhas Vermelhas no topo: Indicam seções onde um único candidato obteve mais de 90% de todos os votos dados à sua legenda, demonstrando domínio absoluto e "canibalização" dos votos do partido naquele local.
 
 5. Mapa de Liberdade do Voto (Entropia de Shannon)
 Mede a diversidade de escolha em cada urna.
 
-![alt text](<imagens/newplot (5).png>)
+![alt text](<imagens/newplot (1).png>)
 
 Cores Verdes/Altas: Urnas com alta entropia, onde os votos foram bem distribuídos entre vários candidatos (ambiente competitivo).
 
